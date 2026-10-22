@@ -13,8 +13,23 @@ distance-difficulty effect), [score_persons()] (trait scores that use
 response times), [plot_time_distance()] (visual check), and
 [simulate_grmrt()] (data generation).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/agustinus-bambang/grmRT}
+  \item Report bugs at \url{https://github.com/agustinus-bambang/grmRT/issues}
+}
+
+}
 \author{
-\strong{Maintainer}: Tri Zahra Ningsih \email{trizahra10019@gmail.com}
+\strong{Maintainer}: Ag. Bambang Setiyadi \email{agustinus.bambang@fkip.unila.ac.id} (\href{https://orcid.org/0000-0003-3139-5001}{ORCID})
+
+Authors:
+\itemize{
+  \item Dian Permata Sari \email{dian.permata21@students.unila.ac.id} (\href{https://orcid.org/0000-0002-9673-6287}{ORCID})
+  \item Chairul Anwar \email{chairul.anwar@radenintan.ac.id} (\href{https://orcid.org/0000-0002-1162-9846}{ORCID})
+  \item Hardo Adriyanto \email{hardoadriyanto35@gmail.com} (\href{https://orcid.org/0009-0007-2865-5198}{ORCID})
+}
 
 }
 \keyword{internal}

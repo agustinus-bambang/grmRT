@@ -3,7 +3,7 @@ Type: Package
 Title: Joint Graded Response and Distance-Difficulty Response-Time Models
 Version: 0.1.0
 Authors@R: c(
-    person("Dian Permata", "Sari", email = "dianpermatasari@fkip.unila.ac.id",
+    person("Dian Permata", "Sari", email = "dian.permata21@students.unila.ac.id",
            role = "aut", comment = c(ORCID = "0000-0002-9673-6287")),
     person("Ag. Bambang", "Setiyadi", email = "agustinus.bambang@fkip.unila.ac.id",
            role = c("aut", "cre"), comment = c(ORCID = "0000-0003-3139-5001")),
@@ -24,6 +24,8 @@ Description: Fits a joint model for Likert-type item responses and item
     distance-difficulty effect, and trait scores that use response times as
     collateral information.
 License: GPL (>= 3)
+URL: https://github.com/agustinus-bambang/grmRT
+BugReports: https://github.com/agustinus-bambang/grmRT/issues
 Encoding: UTF-8
 Depends: R (>= 4.0.0)
 Imports: stats, graphics

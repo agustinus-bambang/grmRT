@@ -12,7 +12,7 @@
 #' @return A data frame with one row per respondent.
 #' @examples
 #' set.seed(3)
-#' sim <- simulate_grmrt(n_persons = 300, n_items = 8)
+#' sim <- simulate_grmrt(n_persons = 200, n_items = 5)
 #' fit <- grmrt_fit(sim$responses, sim$logrt, se = FALSE)
 #' head(score_persons(fit))
 #' @export

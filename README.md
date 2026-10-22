@@ -37,7 +37,7 @@ with `h(u) = sqrt(u^2 + kappa) - sqrt(kappa)` a smooth version of `|u|`.
 
 ```r
 # install.packages("remotes")
-remotes::install_github("trizahra10019-spec/grmRT")
+remotes::install_github("agustinus-bambang/grmRT")
 ```
 
 ## Example
