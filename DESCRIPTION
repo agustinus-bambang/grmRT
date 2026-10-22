@@ -1,0 +1,32 @@
+Package: grmRT
+Type: Package
+Title: Joint Graded Response and Distance-Difficulty Response-Time Models
+Version: 0.1.0
+Authors@R: c(
+    person("Dian Permata", "Sari", email = "dianpermatasari@fkip.unila.ac.id",
+           role = "aut", comment = c(ORCID = "0000-0002-9673-6287")),
+    person("Ag. Bambang", "Setiyadi", email = "agustinus.bambang@fkip.unila.ac.id",
+           role = c("aut", "cre"), comment = c(ORCID = "0000-0003-3139-5001")),
+    person("Chairul", "Anwar", email = "chairul.anwar@radenintan.ac.id",
+           role = "aut", comment = c(ORCID = "0000-0002-1162-9846")),
+    person("Hardo", "Adriyanto", email = "hardoadriyanto35@gmail.com",
+           role = "aut", comment = c(ORCID = "0009-0007-2865-5198")))
+Description: Fits a joint model for Likert-type item responses and item
+    response times in which responses follow Samejima's (1969)
+    <doi:10.1007/BF03372160> graded response model and log response times
+    follow a distance-difficulty (inverted-U) model, so that responding is
+    slowest when a respondent's trait level is close to the item location
+    (Ferrando and Lorenzo-Seva, 2007 <doi:10.1177/0146621606295197>; Molenaar
+    et al., 2021 <doi:10.1177/0146621621990756>). Estimation is by marginal
+    maximum likelihood with an EM algorithm, with normal or robust Student-t
+    errors for noisy web-survey timings, symmetric or asymmetric distance
+    slopes, item-level Wald and likelihood-ratio tests of the
+    distance-difficulty effect, and trait scores that use response times as
+    collateral information.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: stats, graphics
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1
